@@ -72,7 +72,7 @@ WiFiServer server(80);
 
 void setup()
 {
-
+  //define pin in out mode
 	pinMode(Relay1, OUTPUT);
 	pinMode(Relay2, OUTPUT);
 	pinMode(Relay3, OUTPUT);
